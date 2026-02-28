@@ -146,3 +146,32 @@ h4 {
     box-shadow: 0 4px 10px rgba(108, 92, 231, 0.3);
 }
 
+/* --- Weather Result Typography --- */
+#weatherResult p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #f1f2f6;
+    padding-bottom: 8px;
+    animation: slideRight 0.4s ease-out backwards;
+}
+
+#weatherResult p:last-child {
+    border-bottom: none;
+}
+
+#weatherResult strong {
+    color: var(--primary-color);
+    display: inline-block;
+    width: 90px;
+}
+
+.error {
+    color: var(--error-color) !important;
+    font-weight: 600;
+    background: #fab1a0;
+    padding: 10px;
+    border-radius: 8px;
+    border: none !important;
+}
+
