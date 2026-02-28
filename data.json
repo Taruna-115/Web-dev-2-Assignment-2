@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Delhi",
+    "temp": 30,
+    "weather": "Sunny",
+    "humidity": 40,
+    "wind": 3.5
+  },
+  {
+    "name": "Indore",
+    "temp": 21,
+    "weather": "Haze",
+    "humidity": 52,
+    "wind": 5.14
+  },
+  {
+    "name": "London",
+    "temp": 15,
+    "weather": "Cloudy",
+    "humidity": 65,
+    "wind": 4.1
+  },
+  {
+    "name": "Mumbai",
+    "temp": 32,
+    "weather": "Humid",
+    "humidity": 75,
+    "wind": 2.8
+  },
+  {
+    "name": "New York",
+    "temp": 10,
+    "weather": "Rainy",
+    "humidity": 70,
+    "wind": 6.2
+  },
+  {
+    "name": "Tokyo",
+    "temp": 18,
+    "weather": "Clear",
+    "humidity": 55,
+    "wind": 3.9
+  },
+  {
+    "name": "Paris",
+    "temp": 14,
+    "weather": "Foggy",
+    "humidity": 60,
+    "wind": 4.3
+  },
+  {
+    "name": "Sydney",
+    "temp": 25,
+    "weather": "Windy",
+    "humidity": 50,
+    "wind": 7.1
+  },
+  {
+    "name": "Dubai",
+    "temp": 38,
+    "weather": "Hot",
+    "humidity": 30,
+    "wind": 5.5
+  },
+  {
+    "name": "Toronto",
+    "temp": 8,
+    "weather": "Snow",
+    "humidity": 80,
+    "wind": 6.8
+  }
+]
