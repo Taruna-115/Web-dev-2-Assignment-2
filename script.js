@@ -9,3 +9,9 @@ function log(message) {
     consoleOutput.textContent += message + "\n";
 }
 
+// Load history on page load
+window.onload = function () {
+    log("Page Loaded (Sync)");
+    displayHistory();
+};
+
