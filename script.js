@@ -89,3 +89,20 @@ function displayHistory() {
     });
 }
 
+// Button click event
+searchBtn.addEventListener("click", () => {
+
+    log("Sync Start");
+    const city = cityInput.value.trim();
+
+    if (city === "") {
+        alert("Please enter a city name");
+        return;
+    }
+
+    fetchWeather(city);
+
+    log("Sync End");
+});
+
+
