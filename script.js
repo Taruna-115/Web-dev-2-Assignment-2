@@ -15,3 +15,41 @@ window.onload = function () {
     displayHistory();
 };
 
+// Async weather function
+async function fetchWeather(city) {
+
+    log("Async Start fetching...");
+
+    try {
+        const response = await fetch("data.json");
+
+        if (!response.ok) {
+            throw new Error("File not found");
+        }
+
+        const data = await response.json();
+
+        // Simulate delay (Event Loop demo)
+        await new Promise(resolve => setTimeout(resolve, 1000));
+
+        const cityData = data.find(
+            item => item.name.toLowerCase() === city.toLowerCase()
+        );
+
+        if (!cityData) {
+            throw new Error("City not found");
+        }
+
+        log("Promise resolved (Microtask)");
+        displayWeather(cityData);
+        saveToHistory(city);
+
+    } catch (error) {
+        log("Promise rejected (Error caught)");
+        weatherResult.innerHTML =
+            `<p class="error">City not found</p>`;
+    }
+
+    log("Async End");
+}
+
