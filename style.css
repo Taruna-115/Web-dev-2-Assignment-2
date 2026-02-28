@@ -45,3 +45,31 @@ h3 {
     color: var(--primary-color);
 }
 
+/* --- Layout Containers --- */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    width: 100%;
+    max-width: 900px;
+    justify-content: center;
+    animation: fadeIn 0.8s ease-out;
+}
+
+/* --- Card UI --- */
+.card {
+    background: var(--card-bg);
+    border-radius: 16px;
+    padding: 25px;
+    flex: 1;
+    min-width: 320px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
