@@ -106,3 +106,20 @@ searchBtn.addEventListener("click", () => {
 });
 
 
+// Promise demo using .then() / .catch()
+function promiseDemo() {
+    log("Promise Demo Start");
+
+    fetch("https://jsonplaceholder.typicode.com/posts/1")
+        .then(res => res.json())
+        .then(data => {
+            log("Then block executed");
+        })
+        .catch(err => {
+            log("Catch block executed");
+        });
+
+    log("Promise Demo End");
+}
+
+promiseDemo();
