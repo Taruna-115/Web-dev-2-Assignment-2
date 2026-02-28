@@ -53,3 +53,14 @@ async function fetchWeather(city) {
     log("Async End");
 }
 
+// Display weather
+function displayWeather(data) {
+    weatherResult.innerHTML = `
+        <p><strong>City:</strong> ${data.name}</p>
+        <p><strong>Temp:</strong> ${data.temp} °C</p>
+        <p><strong>Weather:</strong> ${data.weather}</p>
+        <p><strong>Humidity:</strong> ${data.humidity}%</p>
+        <p><strong>Wind:</strong> ${data.wind} m/s</p>
+    `;
+}
+
