@@ -68,5 +68,75 @@
     "weather": "Snow",
     "humidity": 80,
     "wind": 6.8
+  },
+  {
+    "name": "Jaipur",
+    "temp": 29,
+    "weather": "Sunny",
+    "humidity": 35,
+    "wind": 4.0
+  },
+  {
+    "name": "Bhopal",
+    "temp": 27,
+    "weather": "Clear",
+    "humidity": 45,
+    "wind": 3.2
+  },
+  {
+    "name": "Chennai",
+    "temp": 33,
+    "weather": "Humid",
+    "humidity": 78,
+    "wind": 4.5
+  },
+  {
+    "name": "Kolkata",
+    "temp": 31,
+    "weather": "Cloudy",
+    "humidity": 70,
+    "wind": 3.8
+  },
+  {
+    "name": "Bangalore",
+    "temp": 24,
+    "weather": "Pleasant",
+    "humidity": 55,
+    "wind": 3.1
+  },
+  {
+    "name": "Hyderabad",
+    "temp": 28,
+    "weather": "Clear",
+    "humidity": 50,
+    "wind": 3.6
+  },
+  {
+    "name": "Pune",
+    "temp": 26,
+    "weather": "Partly Cloudy",
+    "humidity": 48,
+    "wind": 3.4
+  },
+  {
+    "name": "Ahmedabad",
+    "temp": 34,
+    "weather": "Hot",
+    "humidity": 33,
+    "wind": 4.2
+  },
+  {
+    "name": "Lucknow",
+    "temp": 28,
+    "weather": "Haze",
+    "humidity": 60,
+    "wind": 3.7
+  },
+  {
+    "name": "Chandigarh",
+    "temp": 23,
+    "weather": "Clear",
+    "humidity": 42,
+    "wind": 3.0
   }
 ]
