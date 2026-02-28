@@ -241,3 +241,19 @@ pre#consoleOutput::-webkit-scrollbar-thumb {
 #weatherResult p:nth-child(4) { animation-delay: 0.4s; }
 #weatherResult p:nth-child(5) { animation-delay: 0.5s; }
 
+/* --- Responsiveness --- */
+@media (max-width: 600px) {
+    input[type="text"] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    button {
+        width: 100%;
+    }
+    .container {
+        flex-direction: column;
+    }
+    .card {
+        min-width: 100%;
+    }
+}
